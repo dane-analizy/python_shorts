@@ -19,3 +19,4 @@ print("=" * 61)
 
 notowania = pd.DataFrame(sorted(data["rates"], key=lambda d: d["code"]))
 print(notowania.to_markdown(index=False))
+print("=" * 61)
